@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">MyPortfolio</h2>
+      <button class="menu-btn" id="menuBtn">☰</button>
+      <ul id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="tag">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hello, I'm <span>Your Name</span></h1>
+        <h3>IT Student & Aspiring Developer</h3>
+        <p>I create simple, useful, and user-friendly digital experiences while continuously learning new technologies.</p>
+        <a class="btn" href="#projects">View My Projects</a>
+      </div>
+      <div class="profile-card">
+        <div class="avatar">YN</div>
+        <h3>Your Name</h3>
+        <p>Information Technology Student</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p class="section-intro">A short introduction about who I am and what I do.</p>
+      <div class="about-box">
+        <p>
+          Hi! I'm <strong>Your Name</strong>, an Information Technology student who enjoys
+          learning about web development, software, and technology. I like building simple
+          projects that solve everyday problems and improve my skills through hands-on work.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>My Skills</h2>
+      <p class="section-intro">Technologies and skills I am currently learning.</p>
+      <div class="cards">
+        <div class="card"><h3>HTML</h3><p>Building the structure of websites.</p></div>
+        <div class="card"><h3>CSS</h3><p>Designing clean and responsive interfaces.</p></div>
+        <div class="card"><h3>JavaScript</h3><p>Adding interaction and functionality.</p></div>
+        <div class="card"><h3>UI/UX</h3><p>Creating simple and user-friendly designs.</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>My Projects</h2>
+      <p class="section-intro">Some sample projects I have worked on.</p>
+      <div class="cards">
+        <div class="project-card">
+          <div class="project-icon">01</div>
+          <h3>Portfolio Website</h3>
+          <p>A personal website created using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project-card">
+          <div class="project-icon">02</div>
+          <h3>AniBudget</h3>
+          <p>A simple budgeting concept designed to help users manage their money.</p>
+        </div>
+        <div class="project-card">
+          <div class="project-icon">03</div>
+          <h3>Hospital UI</h3>
+          <p>A simple interface concept for patient queue and hospital navigation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact Me</h2>
+      <p class="section-intro">Have a project or just want to say hello?</p>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+      <p id="formMessage" class="form-message"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
